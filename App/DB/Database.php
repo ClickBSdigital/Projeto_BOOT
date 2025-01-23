@@ -63,7 +63,7 @@ class Database{
 
         $query = 'SELECT '.$fields.' FROM '.$this->table. ' ' .$where. ' ' .$order. ' ' .$limit;
 
-        return $this->execute($query)->fetchAll();
+        return $this->execute($query);
     }
 
     public function select_by_id($where = null,$order = null,$limit = null, $fields = '*'){

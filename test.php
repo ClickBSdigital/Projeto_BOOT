@@ -14,6 +14,19 @@ $dados_user = array(
     "id_perfil"=>1
 );
 
+$resultado = $banco->insert(
+
+    $dados_user = array(
+        "nome"=>"Ze Galinha",
+        "email"=>"Eliandro@gmail.com",
+        "cpf"=>"215478",
+        "senha"=>"65487",
+        "id_perfil"=>1
+    )
+    
+);
+
+
 // $resultado = $banco->insert($dados_user);
 
 // if ($resultado){
