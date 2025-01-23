@@ -38,3 +38,7 @@ $usuarios = $banco->select()->fetchAll();
 foreach($usuarios as $user){
     echo $user['nome'] . "<br>";
 }
+
+
+
+
